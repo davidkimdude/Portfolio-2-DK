@@ -1,0 +1,14 @@
+div {
+    border-style: solid;
+    border-width: 2px;
+    padding: 40px;
+}
+
+.container {
+    border-color: gold;
+}
+
+.row {
+    border-color: purple;
+}
+
