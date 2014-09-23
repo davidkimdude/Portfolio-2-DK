@@ -5,7 +5,10 @@ div {
 }
 
 .container {
-    border-color: gold;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    background-color: black;
 }
 
 .row {
@@ -20,4 +23,12 @@ div {
 
 body {
     background-image: url(http://www.larklane.com/students2010/zhanpengao%202010/image/City_Background_by_HyperFoxX.jpg)
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
 }
