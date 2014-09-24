@@ -16,14 +16,28 @@ and open the template in the editor.
     <body>
         <div class="container">
             <h1>About Me</h1>
+            <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Link
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  </ul>
+</div>
             <div class="row">
-
-                <div class="col-xs-10">
+                <p>Welcome to my website. My name is David Kim, I go to Pasadena High School, and I'm attending to the App Academy.<br />
+                My hobbies are skateboarding, soccer, and playing computer games.</p>
+                <div class="col-xs-12">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
                      <ol class="carousel-indicators">
                       <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                       <li data-target="#images/skateboard-street-jump.jpg" data-slide-to="1"></li>
                       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                      </ol>
 
@@ -38,31 +52,30 @@ and open the template in the editor.
     <div class="item">
       <img src="images/skateboard-street-jump.jpg">
       <div class="carousel-caption">
-        ...
+        One of my hobby is skateboarding
       </div>
     </div>
+    <div class="item passive">
+         <img src="images/download (1).jpg"> 
+         <div class="carousel-caption">
+             One of the best game I've ever played
+         </div>
+      </div>  
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
-  <a class="right carousel-control" href="" role="button" data-slide="next">
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 
                 </div>
-                </div>
-                <div class="col-xs-2">
-                    <nav class="list-group">
-                        <a class="list-group-item" href="index.html">About Me</a>
-                        <a class="list-group-item" href="projects.html">Projects</a>
-                        <a class="list-group-item" href="technologies.html">Technologies</a>
-                    </nav>
                 </div>    
             </div>
         </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
