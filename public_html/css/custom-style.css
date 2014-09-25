@@ -12,15 +12,8 @@ div {
 }
 
 .row {
-    border-color: white;
+    border-color: black;
     border-width: 5px;
-}
-
-.list-group-item {
-    border: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: black;
 }
 
 body {
@@ -32,8 +25,9 @@ h1 {
 }
 
 img {
-    width: 550px;
+    width: 650px;
     height: auto;
+    padding-left: 130px;
 }
 
 p {
@@ -46,4 +40,15 @@ p {
 
 .carousel-inner {
     color: black;
+}
+
+.col-xs-2 {
+    color: black;
+    border: 0;
+}
+
+.col-xs-10 {
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }

@@ -12,7 +12,7 @@ div {
 }
 
 .row {
-    border-color: purple;
+    border-color: black;
 }
 
 .list-group-item {
@@ -32,4 +32,29 @@ h1 {
 
 p {
     color: white;
+}
+
+.col-xs-2 {
+    color: black;
+    border: 0;
+}
+
+.col-xs-10 {
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.panel-group {
+    border: 0;
+}
+
+.dropdown {
+    border: 0;
+}
+
+img {
+    width: 200px;
+    height: auto;
 }

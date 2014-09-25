@@ -15,27 +15,70 @@ and open the template in the editor.
     </head>
     <body>
         <div class="container">
-            <h1>Technologies</h1>
+            <div class="col-xs-2">
+                <h1 class="active">Technologies</h1>
+            </div>
+            <div class="col-xs-10">
+                      <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Link
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Home</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="technologies.html">Technologies</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="projects.html">Projects</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.theappacademy.us">App Academy</a></li>
+  </ul>
+</div>
+            </div>
             <div class="row">
-                <p>I used CSS, HTML and Bootstrap to make this website.
-                CSS stands for Cascading Style Sheet. And what it does is it defines how to display you HTML elements.
-                And HTML is the standard makeup language used to create websites.
-                Bootstrap is a web design tool, it helps you making codes more easier.
-                If you go to their website, there's a bunch of codes you can copy and paste to use,
-                and it makes your website looks way better, like websites made by pros.
-                </p>
-                <div class="col-xs-10">
+                <iframe width="250" height="56" src="//www.youtube.com/embed/_L2vJEb6lVE" frameborder="0" allowfullscreen></iframe>
+                <div class="col-xs-12">
+                    <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          HTML
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png">
+        HTML stands for Hyper Text Markup Language, and it's a standard language used to create a website.
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          CSS
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+        <img src="images/280x250_css3_logo.jpg">
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Bootstrap</a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+        <img src="images/images (2).jpg">
+        
+    </div>
+  </div>
+</div>
                     
                 </div>
-                <div class="col-xs-2">
-                    <nav class="list-group">
-                        <a class="list-group-item" href="index.html">About Me</a>
-                        <a class="list-group-item" href="projects.html">Projects</a>
-                        <a class="list-group-item" href="technologies.html">Technologies</a>
-                    </nav>
+                
                 </div>    
             </div>
-        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>    
     </body>

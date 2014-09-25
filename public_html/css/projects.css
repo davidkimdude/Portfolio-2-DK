@@ -12,7 +12,7 @@ div {
 }
 
 .row {
-    border-color: purple;
+    border-color: black;
 }
 
 .list-group-item {
@@ -27,8 +27,9 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 650px;
     height: auto;
+    padding-left: 140px;
 }
 
 h1 {
@@ -39,7 +40,18 @@ p {
     color: white;
 }
 
-.navbar navbar-default {
-    width: auto;
-    height: 100px;
+.col-xs-2 {
+    color: black;
+    border: 0;
 }
+
+.col-xs-10 {
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.carousel-inner {
+    color: black;
+}
+
