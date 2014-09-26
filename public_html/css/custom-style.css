@@ -3,19 +3,19 @@ div {
     border-width: 2px;
     padding: 40px;
 }
-
+/*for outlining it from the background*/
 .container {
     border-color: white;
     border-style: solid;
     border-width: 5px;
     background-color: black;
 }
-
+/*to make the border disappear*/
 .row {
     border-color: black;
     border-width: 5px;
 }
-
+/*for the background*/
 body {
     background-image: url(http://bglabs.evade.netdna-cdn.com/wp-content/uploads/2013/06/seamless-pattern-of-circuit-board-black.png);
 }
@@ -23,7 +23,7 @@ body {
 h1 {
     color: white;
 }
-
+/*I fitted it for the carousel*/
 img {
     width: 650px;
     height: auto;
@@ -33,7 +33,7 @@ img {
 p {
     color: white;
 }
-
+/*to delete the boxes around the carousel*/
 .carousel slide {
     color: black;
 }
@@ -46,7 +46,7 @@ p {
     color: black;
     border: 0;
 }
-
+/*to make dropdown on the right position*/
 .col-xs-10 {
     color: black;
     padding-bottom: 10px;

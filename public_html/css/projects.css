@@ -3,35 +3,28 @@ div {
     border-width: 2px;
     padding: 40px;
 }
-
+/*for outlining purpose*/
 .container {
     border-color: white;
     border-style: solid;
     border-width: 5px;
     background-color: black;
 }
-
+/*to make border looks it's not existing'*/
 .row {
     border-color: black;
-}
-
-.list-group-item {
-    border: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: black;
 }
 
 body {
     background-image: url(http://www.freedesigns.me/wp/smarthost/wp-content/uploads/2013/07/508ba1480284c-2306.jpg)
 }
-
+/*to fit the image in the carousel*/
 img {
     width: 650px;
     height: auto;
     padding-left: 140px;
 }
-
+/*so you can see the letters clearly*/
 h1 {
     color: white;
 }
@@ -44,7 +37,7 @@ p {
     color: black;
     border: 0;
 }
-
+/*to make dropdown in the right position*/
 .col-xs-10 {
     color: black;
     padding-bottom: 10px;

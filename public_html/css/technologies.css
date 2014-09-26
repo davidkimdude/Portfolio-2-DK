@@ -14,14 +14,7 @@ div {
 .row {
     border-color: black;
 }
-
-.list-group-item {
-    border: 0;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-color: black;
-}
-
+/*I put all different images for each pages*/
 body {
     background-image: url(http://www.larklane.com/students2010/zhanpengao%202010/image/City_Background_by_HyperFoxX.jpg)
 }
